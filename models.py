@@ -1,8 +1,7 @@
 from odoo import models, fields
 
-class anotaciones(models.Model):
-    _name="create.anotaciones"
-
+class CreateNotes(models.Model):
+    _name="create.notes"
     note = fields.Char("Nota")
     descripcion = fields.Char("Description")
-    date = fields.dateTime("Date")
+    date = fields.Date("Date")
