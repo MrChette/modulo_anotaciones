@@ -3,12 +3,11 @@
         <field name="name">view.tree.todo</field>
         <field name="model">create.notes</field>
         <field name="arch" type="xml">
-            <group>
+            <tree>
                 <field name="note"/>
-                <field name="date"/>
-                <field name="descripcion"/>
-                
-            </group>
+                <field name="date" height="130"/>
+                <field name="descripcion"/>    
+            </tree>
         </field>
     </record>
 
